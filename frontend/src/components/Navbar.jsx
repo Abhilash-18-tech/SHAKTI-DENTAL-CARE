@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/about" className="text-gray-700 hover:text-primary transition-colors font-medium">About</Link>
             <Link to="/treatments" className="text-gray-700 hover:text-primary transition-colors font-medium">Treatments</Link>
             <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors font-medium">Contact</Link>
-            <Link to="/contact" className="bg-primary hover:bg-blue-700 text-white px-6 py-2 rounded-full font-medium transition-colors shadow-md hover:shadow-lg">
+            <Link to="/contact" className="bg-gradient-to-r from-[#4d4add] to-[#9255c2] hover:from-[#3d3ab0] hover:to-[#7a42a8] text-white px-6 py-2 rounded-full font-medium transition-colors shadow-md hover:shadow-lg">
               Book Appointment
             </Link>
           </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
           <Link to="/about" onClick={toggleMenu} className="text-gray-700 hover:text-primary font-medium p-2">About</Link>
           <Link to="/treatments" onClick={toggleMenu} className="text-gray-700 hover:text-primary font-medium p-2">Treatments</Link>
           <Link to="/contact" onClick={toggleMenu} className="text-gray-700 hover:text-primary font-medium p-2">Contact</Link>
-          <Link to="/contact" onClick={toggleMenu} className="bg-primary text-white px-6 py-3 rounded-full font-medium text-center shadow-md">
+          <Link to="/contact" onClick={toggleMenu} className="bg-gradient-to-r from-[#4d4add] to-[#9255c2] hover:from-[#3d3ab0] hover:to-[#7a42a8] text-white px-6 py-3 rounded-full font-medium text-center shadow-md">
             Book Appointment
           </Link>
         </div>
